@@ -1,0 +1,26 @@
+---
+apiConfigurations:
+- name: "Local Test Server"
+  specificationPath: null
+  servers:
+  - key: "development"
+    value: "http://localhost:33291/server/development"
+  - key: "production"
+    value: "https://localhost:33291/server/production"
+  headers: []
+  cookies: []
+  security: []
+  UID: "73a2365c-914b-4c8b-9ec4-a7d358170031"
+- name: "Public APIs"
+  specificationPath: null
+  servers:
+  - key: "main"
+    value: "https://api.publicapis.org"
+  - key: "test"
+    value: "https://api.publicapis.org/test"
+  headers:
+  - key: "my-secret"
+    value: "abcde-12345"
+  cookies: []
+  security: []
+  UID: "8fa6f8a9-e12c-4fc5-8975-b964ed01acab"
